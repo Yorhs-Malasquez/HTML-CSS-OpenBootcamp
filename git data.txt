@@ -1,0 +1,52 @@
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+PS D:\curso bootcamp\04_HTML_CSS> git version
+git version 2.37.2.windows.2
+PS D:\curso bootcamp\04_HTML_CSS> git init
+Initialized empty Git repository in D:/curso bootcamp/04_HTML_CSS/.git/
+PS D:\curso bootcamp\04_HTML_CSS> git status -s
+?? "01-Introducci\303\263n/"
+PS D:\curso bootcamp\04_HTML_CSS> git status -s
+A  02-Formularios-Tablas/formularios.html
+A  02-Formularios-Tablas/tablas.html
+ 4 files changed, 152 insertions(+)
+ create mode 100644 "01-Introducci\303\263n/primer.html"
+ create mode 100644 02-Formularios-Tablas/tablas.html
+PS D:\curso bootcamp\04_HTML_CSS> git status -s
+PS D:\curso bootcamp\04_HTML_CSS> git log --oneline
+fcfaffb (HEAD -> master) Agregamos los Archivos
+PS D:\curso bootcamp\04_HTML_CSS> git reset --hard fcfaffb
+HEAD is now at fcfaffb Agregamos los Archivos
+PS D:\curso bootcamp\04_HTML_CSS> git log --oneline       
+fcfaffb (HEAD -> master) Agregamos los Archivos
+PS D:\curso bootcamp\04_HTML_CSS> git remote add origin https://github.com/Yorhs-Malasquez/HTML-CSS-OpenBootcamp.git       
+error: failed to push some refs to 'https://github.com/Yorhs-Malasquez/HTML-CSS-OpenBootcamp.git'
+PS D:\curso bootcamp\04_HTML_CSS> git branch -M main
+PS D:\curso bootcamp\04_HTML_CSS> git push -u origin main
+Enumerating objects: 8, done.
+Delta compression using up to 8 threads
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Yorhs-Malasquez/HTML-CSS-OpenBootcamp.git
+branch 'main' set up to track 'origin/main'.
+PS D:\curso bootcamp\04_HTML_CSS> git status -s
+PS D:\curso bootcamp\04_HTML_CSS> git status   
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS D:\curso bootcamp\04_HTML_CSS> git status -s
+ M 02-Formularios-Tablas/tablas.html
+PS D:\curso bootcamp\04_HTML_CSS> git add .
+PS D:\curso bootcamp\04_HTML_CSS> git commit -m "modificando tablas"
+[main 8b134c4] modificando tablas
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\curso bootcamp\04_HTML_CSS> git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 374 bytes | 374.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Yorhs-Malasquez/HTML-CSS-OpenBootcamp.git
+   fcfaffb..8b134c4  main -> main
+PS D:\curso bootcamp\04_HTML_CSS> 
