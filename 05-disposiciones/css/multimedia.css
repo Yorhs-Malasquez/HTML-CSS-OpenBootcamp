@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imagen-principal{
+    width: 100vw;/*el vw significa que sea el 100*100 de toda la pantalla*/
+    opacity: 0.3;
+}
+
+.imagen-principal:hover{
+    opacity: 1;
+}
+
+.galeria{
+    display: flex;/*todas las imagenes se homogeneizan*/
+    flex-wrap: wrap;
+    gap: 10px;/*epacio entre ellas*/
+}
+
+.imagen-galeria{
+    width: 150px;
+}
+
+.imagen-galeria:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}

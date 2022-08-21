@@ -1,0 +1,36 @@
+.flex{
+    display:flex;
+    /*flex-direction: ;*/
+    background-color: yellow;
+    height: 300px;
+    /*justify-content: center;/*posicionamiento por dentro en relacion al
+    eje principal*/
+    justify-content: space-around;
+    /*flex-wrap: nowrap;/*redimensiona los elementos en funcion 
+    al tamaño de nuestra pantalla*/
+    /*flex-wrap: wrap;/*ya no realiza el redimensionamiento*/
+    align-items: center;
+}
+.contenido-1{
+    background-color: white;
+    /*height: 200px;lo deshabilito para probar align items*/
+    width: 200px;
+    border: 1px solid blue;
+
+}
+
+.contenido-2{
+    background-color: white;
+    /*height: 200px;lo deshabilito para probar align items*/
+    width: 200px;
+    border: 1px solid blue;
+    
+}
+
+.contenido-3{
+    background-color: white;
+    /*height: 200px;lo deshabilito para probar align items*/
+    width: 200px;
+    border: 1px solid blue;
+    
+}

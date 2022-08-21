@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+}
+/*Estoy probrando colores y fuentes*/
+p{
+    color: blue;
+    font-size: 16pt;
+}
+#primera-noticia{
+    color: green;
+    font-size: 12pt;
+}
+#segunda-noticia{
+    color: darkmagenta;
+
+}
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+/*tambbien se puede colocar * */
+/*
+*.nombre_clase{
+    esto da fromato a todos los elementos de la clase dada
+}
+*/
+.autor,.fecha,.ubicacion,h1,#segunda-noticia{
+    text-decoration: underline;
+}
